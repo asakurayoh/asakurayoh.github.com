@@ -74,10 +74,10 @@ header p{font-size:1.3em; margin:0; padding:0;}
 
 h2{ font-size:1.4em; font-weight:bold; border-bottom:1px solid #000;}
 
-
-
-
-
+.liste-liens{ list-style:none; margin:0; padding:0;}
+.liste-liens li{ margin:5px;}
+.liste-liens a{ font-weight:bold; font-size:1.1em; text-decoration:none; color:#de0e37;}
+.liste-liens a:hover{ text-decoration:underline;}
 
 
 
