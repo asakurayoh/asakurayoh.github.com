@@ -67,7 +67,7 @@ td { vertical-align: top; }
    ========================================================================== */
 
 body{ background:#eee;}
-#container{ background:#fff; width:600px; margin:0 auto; min-height:100px; padding:40px; }
+#container{ background:#fff; width:400px; margin:0 auto; min-height:100px; padding:40px; }
 
 h1{ font-size:2em; margin:0; padding:0; }
 header p{font-size:1.3em; margin:0; padding:0;}
