@@ -11,8 +11,8 @@ html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-
 body { margin: 0; font-size: 13px; line-height: 1.231; }
 body, button, input, select, textarea { font-family: sans-serif; color: #222; }
 
-::-moz-selection { background: #5290aa; color: #fff; text-shadow: none; }
-::selection { background: #5290aa; color: #fff; text-shadow: none; }
+::-moz-selection { background: #fdff6d; color: #000; text-shadow: none; }
+::selection { background: #fdff6d; color: #000; text-shadow: none; }
 
 a { color: #00e; }
 a:visited { color: #551a8b; }
@@ -87,18 +87,19 @@ h2{ font-size:1.2em; font-weight:bold; margin:1.5em 0 0.7em; padding:0; }
 .liste-liens a{ font-weight:bold; font-size:1.1em; text-decoration:none; color:#de0e37; }
 .liste-liens a:hover{ text-decoration:underline; }
 .liste-liens li{
-  -webkit-transition: margin-left 0.3s ease-in-out, margin-right 0.3s ease-in-out, padding 0.3s ease-in-out;
-  -moz-transition: margin-left 0.3s ease-in-out, margin-right 0.3s ease-in-out, padding 0.3s ease-in-out;
-  -o-transition: margin-left 0.3s ease-in-out, margin-right 0.3s ease-in-out, padding 0.3s ease-in-out;
-  transition: margin-left 0.3s ease-in-out, margin-right 0.3s ease-in-out, padding 0.3s ease-in-out;
+  -webkit-transition: margin-left 0.3s ease-in-out, margin-right 0.3s ease-in-out, padding 0.3s ease-in-out, background 0.3s ease-in-out;
+  -moz-transition: margin-left 0.3s ease-in-out, margin-right 0.3s ease-in-out, padding 0.3s ease-in-out, background 0.3s ease-in-out;
+  -o-transition: margin-left 0.3s ease-in-out, margin-right 0.3s ease-in-out, padding 0.3s ease-in-out, background 0.3s ease-in-out;
+  transition: margin-left 0.3s ease-in-out, margin-right 0.3s ease-in-out, padding 0.3s ease-in-out, background 0.3s ease-in-out;
 
   margin-left:0;
   margin-left:0;
 }
 .liste-liens li:hover{
-  padding:20px 30px;
-  margin-left:-20px;
-  margin-right:-20px;
+  background:#ffffff;
+  padding:20px 40px;
+  margin-left:-30px;
+  margin-right:-30px;
 }
 
 /* ==|== non-semantic helper classes ======================================== */
