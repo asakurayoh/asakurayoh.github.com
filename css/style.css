@@ -87,18 +87,16 @@ h2{ font-size:1.2em; font-weight:bold; margin:1.5em 0 0.7em; padding:0; }
 .liste-liens a{ font-weight:bold; font-size:1.1em; text-decoration:none; color:#de0e37; }
 .liste-liens a:hover{ text-decoration:underline; }
 .liste-liens li{
-  -webkit-transition: margin-left 0.3s ease-in-out, margin-right 03s ease-in-out, padding 0.3s ease-in-out;
+  -webkit-transition: margin-left 0.3s ease-in-out, margin-right 0.3s ease-in-out, padding 0.3s ease-in-out;
   -moz-transition: margin-left 0.3s ease-in-out, margin-right 0.3s ease-in-out, padding 0.3s ease-in-out;
   -o-transition: margin-left 0.3s ease-in-out, margin-right 0.3s ease-in-out, padding 0.3s ease-in-out;
   transition: margin-left 0.3s ease-in-out, margin-right 0.3s ease-in-out, padding 0.3s ease-in-out;
 
   margin-left:0;
-  margin-right:0;
 }
 .liste-liens li:hover{
   padding:20px 30px;
   margin-left:-20px;
-  margin-right:-20px;
 }
 
 /* ==|== non-semantic helper classes ======================================== */
