@@ -82,12 +82,12 @@ header p{font-size:1.3em; margin:0; padding:0;}
 
 h2{ font-size:1.2em; font-weight:bold; margin:1.5em 0 0.7em; padding:0; }
 h2 span{ display:inline-block; background:#de0e37; background:rgba(181,13,46,0.8); color:#FFF; padding:4px 15px 3px 48px; margin-left:-55px;}
-.liste-liens{ list-style:none; margin:0; padding:0; }
-.liste-liens li{ padding:10px; background:#eee; margin-bottom:2px; }
-.liste-liens li:nth-child(odd){ background:#e9e9e9; }
-.liste-liens a{ font-weight:bold; font-size:1.1em; text-decoration:none; color:#de0e37; }
-.liste-liens a:hover{ text-decoration:underline; }
-.liste-liens li{
+ul{ list-style:none; margin:0; padding:0; }
+ul li{ padding:10px; background:#eee; margin-bottom:2px; }
+ul li:nth-child(odd){ background:#e9e9e9; }
+ul a{ font-weight:bold; font-size:1.1em; text-decoration:none; color:#de0e37; }
+ul a:hover{ text-decoration:underline; }
+ul li{
   -webkit-transition: margin-left 0.3s ease-in-out, margin-right 0.3s ease-in-out, padding 0.3s ease-in-out, background 0.3s ease-in-out;
   -moz-transition: margin-left 0.3s ease-in-out, margin-right 0.3s ease-in-out, padding 0.3s ease-in-out, background 0.3s ease-in-out;
   -o-transition: margin-left 0.3s ease-in-out, margin-right 0.3s ease-in-out, padding 0.3s ease-in-out, background 0.3s ease-in-out;
@@ -96,7 +96,7 @@ h2 span{ display:inline-block; background:#de0e37; background:rgba(181,13,46,0.8
   margin-left:0;
   margin-left:0;
 }
-.liste-liens li:hover{
+ul li:hover{
   background:#fff;
   padding:10px 50px;
   margin-left:-40px;
