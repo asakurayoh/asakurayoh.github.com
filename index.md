@@ -1,4 +1,5 @@
 ﻿---
+title:test
 layout: main
 ---
 
